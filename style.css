@@ -40,7 +40,6 @@ a {
 
 .wrapper {
     position: absolute;
-    top: 15rem;
     left: 5rem;
     bottom: 5rem;
     display: flex;
@@ -59,7 +58,6 @@ h3 {
 h1 {
     font-size: 3rem;
     font-weight: 600;
-    bottom: 1rem;
 }
 
 p {
