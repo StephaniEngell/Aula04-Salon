@@ -38,7 +38,7 @@ a {
     cursor: pointer;
 }
 
-.text {
+.wrapper {
     position: absolute;
     top: 15rem;
     left: 5rem;
