@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url('assets/backgound-1.png');
+    background-image: url("/assets/backgound-1.png");
     background-size: cover;
     display: flex;
 }
@@ -20,7 +20,7 @@ header {
 
 a {
     color: #fff;
-    font-size: 22px;
+    font-size: 1.3rem;
     font-weight: bold;
     cursor: pointer;
     padding: 25px;
@@ -40,41 +40,39 @@ a {
 
 .wrapper {
     position: absolute;
-    left: 5rem;
-    bottom: 5rem;
+    margin-left: 5rem;
+    margin-top: 10rem;
     display: flex;
     flex-direction: column;
-    color: #FFFFFF;
+    color: #fff;
     padding: 35px;
     width: 33rem;
 }
 
 h3 {
     color: #FBB034;
-    font-size: 13px;
+    font-size: 0.8rem;
     font-weight: 200;
 }
 
 h1 {
     font-size: 3rem;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 p {
     color: #9A9A9A;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 300;
     width: 25rem;
-    
 }
 
 .button-orange-2 {
     margin-top: 4rem;
     margin-left: 1px;
-
 }
 
-.transparent-button {
+.button-transparent {
     height: 2.8rem;
     width: 8.5rem;
     background-color: transparent;
